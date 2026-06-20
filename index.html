@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi novia ❤️</title>
+    <style>
+        body {
+            background-color: #0b001a; /* Color del espacio oscuro */
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            overflow: hidden;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .universo {
+            margin-top: 30vh;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #ffb3d9;
+        }
+
+        .corazon {
+            position: absolute;
+            bottom: -50px;
+            font-size: 30px;
+            animation: flotar 4s linear infinite;
+        }
+
+        @keyframes flotar {
+            0% { transform: translateY(0) scale(1); opacity: 1; }
+            100% { transform: translateY(-100vh) scale(1.5); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="universo">
+        <h1>¡Te amo! ❤️</h1>
+        <p>Eres mi universo entero</p>
+        
+        <!-- Aquí están los corazones flotando en diferentes posiciones -->
+        <div class="corazon" style="left: 10%; animation-delay: 0s;">❤️</div>
+        <div class="corazon" style="left: 30%; animation-delay: 1s;">❤️</div>
+        <div class="corazon" style="left: 50%; animation-delay: 0.5s;">❤️</div>
+        <div class="corazon" style="left: 70%; animation-delay: 2s;">❤️</div>
+        <div class="corazon" style="left: 90%; animation-delay: 1.5s;">❤️</div>
+    </div>
+
+</body>
+</html>
